@@ -1,0 +1,18 @@
+.custom_bg {
+  /* background: url("../../../assets/img/coffeehouse-2600877_1920.jpg"); */
+  height: 100%;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("../../../assets/img/coffeehouse-2600877_1920.jpg");
+}
+.white_font{
+    color: white;
+}
+.yellow_font{
+    color: rgb(247, 185, 15);
+}
+.custome_font_b {
+    width: 100%;
+    background: linear-gradient(45deg,rgba(110, 76, 3, 0.329), rgba(0, 0, 0, 0.288), rgba(110, 76, 3, 0.329)) !important;
+  }
+
