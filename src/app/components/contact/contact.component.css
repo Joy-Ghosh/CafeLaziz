@@ -1,0 +1,31 @@
+main {
+  height: 100vh;
+  margin: 3rem 0rem 9rem 0rem;
+}
+.form_container {
+  
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 3rem;
+}
+.l_logo{
+    background:rgb(247, 185, 15);
+    padding: .5rem .6rem;
+    border-radius: 50%;
+}
+.l_logo i{
+    color: white;
+}
+.u_text{
+    font-size: 1.3rem;
+    font-family: 'Satisfy', cursive;
+
+}
+.bx{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+@media screen and (max-width: 600px) {
+  main {
+    margin: 3rem 0rem 9rem 0rem;
+    padding-bottom: 4rem;
+  }
+}

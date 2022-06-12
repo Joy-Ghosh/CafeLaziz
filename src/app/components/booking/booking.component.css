@@ -1,0 +1,15 @@
+main{
+
+    height: 100vh;
+    margin-top: 3rem;
+}
+.form_container{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 3rem;
+}
+@media screen and (max-width: 600px) {
+    main {
+        margin: 3rem 0rem 9rem 0rem;
+        padding-bottom: 4rem;
+    }
+  }

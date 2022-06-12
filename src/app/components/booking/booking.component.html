@@ -1,0 +1,70 @@
+<app-header></app-header>
+<main>
+  <div class="pricing-header p-3 pb-md-4 pt-5 mx-auto text-center">
+    <h3 class="fw-normal custom_font">
+      Book a <span style="color: rgb(247, 185, 15)">Table</span>
+    </h3>
+    <p class="fs-3 text-muted">
+      Ut possimus qui ut temporibus culpa velit eveniet modi
+    </p>
+  </div>
+  <div class="container form_container">
+    <form>
+      <div class="row">
+        <div class="col-md-4">
+          <label for="name" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            aria-describedby="namehelp"
+          />
+        </div>
+        <div class="col-md-4">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="col-md-4">
+          <label for="phone" class="form-label">Phone</label>
+          <input
+            type="text"
+            class="form-control"
+            id="phone"
+            aria-describedby="phoneHelp"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <label for="date" class="form-label">Date</label>
+          <input type="date" class="form-control" id="date" />
+        </div>
+        <div class="col-md-4">
+          <label for="time" class="form-label">Time</label>
+          <input type="time" class="form-control" id="time" />
+        </div>
+        <div class="col-md-4">
+          <label for="people" class="form-label">Number of People</label>
+          <input type="number" class="form-control" id="people" />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="message" class="form-label">Message</label>
+          <textarea type="text" class="form-control" id="message"></textarea>
+        </div>
+      </div>
+      <div class="submit" style="text-align: center">
+        <button type="submit" class="btn btn-warning mx-2 px-5 py-2 fs-5">
+          Book now
+        </button>
+      </div>
+    </form>
+  </div>
+</main>
+<app-footer></app-footer>
